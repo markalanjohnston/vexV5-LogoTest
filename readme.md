@@ -63,3 +63,15 @@ for (int i = 0; i < 10; i++) {
     Brain.Screen.clearScreen();
     wait(200, msec);
 }
+
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+## Notes
+- This method is highly inefficient for complex images (thousands of lines of code for a single image). However, it demonstrates how pixel manipulation works on the VEX Brain.
+- For practical applications, consider using `drawImageFromFile()` with an SD card.
+
+## Acknowledgments
+- [Adobe PNG to SVG Converter](https://www.adobe.com/express/feature/image/convert/png-to-svg)
+- [Spotify’s Coordinator Tool](https://spotify.github.io/coordinator/)
