@@ -10,11 +10,6 @@ While this method isn't the most efficient way to display an image, it's a fun a
 
 ---
 
-### License
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## Notes
 - This method is highly inefficient for complex images (thousands of lines of code for a single image). However, it demonstrates how pixel manipulation works on the VEX Brain.
 - For practical applications, consider using `drawImageFromFile()` with an SD card.
